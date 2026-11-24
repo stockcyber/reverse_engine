@@ -1,40 +1,40 @@
-![REVERSE LAB Banner](./banner.png)
+ <div align="center">
 
-<h1 align="center">REVERSE LAB</h1>
+<img src="https://i.pinimg.com/1200x/be/49/5a/be495a9ae2bb6de49ac21e5f83f269b6.jpg" width="100%" alt="Reverse Lab Banner"/>
 
-<p align="center">
-  Advanced Executable Analysis & Reverse Engineering Toolkit.
-</p>
+# REVERSE LAB
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
-</p>
+**Advanced Executable Analysis & Reverse Engineering Toolkit**
 
-<p align="center">
-  <b>Developed by Stock</b>
-</p>
+Uma ferramenta em Python para análise de executáveis, extração de recursos e engenharia reversa, reunindo ferramentas poderosas em um único ambiente.
+
+[![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?style=flat-square&logo=windows&logoColor=white)](https://www.microsoft.com/windows)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+
+</div>
 
 ---
 
 <p align="center">
-  <a href="#-português">🇧🇷 Português</a> •
-  <a href="#-english">🇺🇸 English</a> •
-  <a href="#-日本語">🇯🇵 日本語</a>
+  <a href="#-português">Português</a> •
+  <a href="#-english">English</a> •
+  <a href="#-日本語">日本語</a>
 </p>
 
 ---
 
-## 🇧🇷 Português
+## Português
 
-### 📌 Sobre o projeto
+### Sobre o projeto
 
-O **REVERSE LAB** é uma ferramenta desenvolvida em Python com o objetivo de facilitar a análise interna de executáveis e a identificação de tecnologias utilizadas em sua compilação.
+O **Reverse Lab** é uma ferramenta desenvolvida em Python com o objetivo de facilitar a análise interna de executáveis e a identificação de tecnologias utilizadas em sua compilação.
 
-O projeto reúne recursos de extração automatizada, identificação de arquivos embutidos e integração com ferramentas de engenharia reversa, tudo em um único ambiente interativo diretamente no terminal.
+O projeto combina extração automatizada de recursos, identificação de arquivos embutidos e integração com ferramentas de engenharia reversa.
 
-### ⚙️ Funcionalidades
+Tudo isso através de uma interface interativa diretamente no terminal.
+
+### Funcionalidades
 
 - **PE Resource Extraction** — Extração de recursos internos de executáveis Windows, incluindo ícones, imagens, manifestos e textos.
 - **File Carving** — Identificação e extração de arquivos embutidos através de assinaturas binárias.
@@ -46,7 +46,7 @@ O projeto reúne recursos de extração automatizada, identificação de arquivo
 - **Tool Manager** — Instalação, gerenciamento e remoção de ferramentas externas.
 - **Automatic Reports** — Geração de relatórios com informações sobre os arquivos analisados.
 
-### 🛠️ Ferramentas integradas
+### Ferramentas integradas
 
 | Ferramenta | Função |
 |---|---|
@@ -55,7 +55,7 @@ O projeto reúne recursos de extração automatizada, identificação de arquivo
 | Cutter | Interface gráfica para análise |
 | JDK 21 | Ambiente necessário para o Ghidra |
 
-### 📥 Instalação
+### Instalação
 
 Clone o repositório:
 
@@ -77,45 +77,51 @@ python reverse_engine.py
 
 **Dependências:** o núcleo do projeto utiliza bibliotecas padrão do Python. Não é necessário instalar pacotes adicionais com pip para executar a extração básica.
 
-### 🚀 Como utilizar
+### Como utilizar
 
-**Interface interativa:**
+#### Interface interativa
 
 ```bash
 python reverse_engine.py
 ```
 
-**Análise básica:**
+O menu permite selecionar um executável, escolher ferramentas adicionais e iniciar a análise.
+
+#### Linha de comando
+
+Análise básica:
 
 ```bash
 python reverse_engine.py programa.exe
 ```
 
-**Análise com Rizin:**
+Análise com Rizin:
 
 ```bash
 python reverse_engine.py programa.exe --rizin
 ```
 
-**Análise com Ghidra:**
+Análise com Ghidra:
 
 ```bash
 python reverse_engine.py programa.exe --ghidra
 ```
 
-**Análise com todas as ferramentas:**
+Análise com todas as ferramentas:
 
 ```bash
 python reverse_engine.py programa.exe --tudo
 ```
 
-**Verificar ferramentas instaladas:**
+Verificar ferramentas instaladas:
 
 ```bash
 python reverse_engine.py --status
 ```
 
-### 📂 Estrutura de saída
+### Estrutura de saída
+
+Após a análise, os arquivos extraídos são organizados automaticamente:
 
 ```text
 programa_extraido/
@@ -133,9 +139,9 @@ programa_extraido/
 └── LEIAME.txt
 ```
 
-A estrutura pode variar de acordo com o formato do executável e as ferramentas selecionadas.
+A estrutura varia de acordo com o formato do executável e as ferramentas selecionadas.
 
-### 🔒 Segurança
+### Segurança
 
 O Reverse Lab foi desenvolvido para analisar arquivos sem executar o programa analisado durante o processo de extração e análise.
 
@@ -143,7 +149,7 @@ Também possui mecanismos de proteção para caminhos de arquivos extraídos e l
 
 **Importante:** a análise de executáveis desconhecidos ainda pode apresentar riscos. Utilize ambientes isolados e analise somente arquivos próprios, open source ou para os quais você tenha autorização.
 
-### 💻 Tecnologias utilizadas
+### Tecnologias utilizadas
 
 - Python
 - PE (Portable Executable)
@@ -155,27 +161,29 @@ Também possui mecanismos de proteção para caminhos de arquivos extraídos e l
 
 ---
 
-## 🇺🇸 English
+## English
 
-### 📌 About
+### About the project
 
-**REVERSE LAB** is a Python-based tool designed to simplify executable analysis and identify the technologies used to build compiled applications.
+**Reverse Lab** is a Python-based tool designed to simplify executable analysis and identify the technologies used in their compilation.
 
-The project combines automated resource extraction, embedded file identification, and integration with reverse engineering tools into a single interactive terminal environment.
+The project combines automated resource extraction, embedded file identification, and integration with reverse engineering tools.
 
-### ⚙️ Features
+All of this is available through an interactive terminal interface.
+
+### Features
 
 - **PE Resource Extraction** — Extracts internal resources from Windows executables, including icons, images, manifests, and text.
 - **File Carving** — Identifies and extracts embedded files using binary signatures.
-- **PyInstaller Extraction** — Detects and extracts PyInstaller packages, modules, and compiled Python files.
+- **PyInstaller Extraction** — Identifies and extracts PyInstaller packages, modules, and compiled Python files.
 - **Technology Detection** — Identifies technologies such as Python, .NET, Electron, Java, Unity, Go, and Rust.
-- **Ghidra Integration** — Analyzes and decompiles functions into C-like pseudocode.
+- **Ghidra Integration** — Analyzes and decompiles functions into C pseudocode.
 - **Rizin Integration** — Extracts information, strings, functions, and assembly.
 - **Cutter Integration** — Opens executables in a graphical analysis interface.
 - **Tool Manager** — Installs, manages, and removes external tools.
 - **Automatic Reports** — Generates reports containing information about analyzed files.
 
-### 🛠️ Integrated tools
+### Integrated tools
 
 | Tool | Purpose |
 |---|---|
@@ -184,7 +192,7 @@ The project combines automated resource extraction, embedded file identification
 | Cutter | Graphical analysis interface |
 | JDK 21 | Required environment for Ghidra |
 
-### 📥 Installation
+### Installation
 
 Clone the repository:
 
@@ -198,53 +206,59 @@ Navigate to the project directory:
 cd Reverse-Lab
 ```
 
-Run the application:
+Run:
 
 ```bash
 python reverse_engine.py
 ```
 
-**Dependencies:** the core application uses Python standard libraries. No additional pip packages are required for basic extraction.
+**Dependencies:** the core project uses Python standard libraries. No additional pip packages are required for basic extraction.
 
-### 🚀 How to use
+### How to use
 
-**Interactive interface:**
+#### Interactive interface
 
 ```bash
 python reverse_engine.py
 ```
 
-**Basic analysis:**
+The menu allows you to select an executable, choose additional tools, and start the analysis.
+
+#### Command line
+
+Basic analysis:
 
 ```bash
 python reverse_engine.py program.exe
 ```
 
-**Analysis with Rizin:**
+Analysis with Rizin:
 
 ```bash
 python reverse_engine.py program.exe --rizin
 ```
 
-**Analysis with Ghidra:**
+Analysis with Ghidra:
 
 ```bash
 python reverse_engine.py program.exe --ghidra
 ```
 
-**Analysis with all tools:**
+Analysis with all tools:
 
 ```bash
 python reverse_engine.py program.exe --tudo
 ```
 
-**Check installed tools:**
+Check installed tools:
 
 ```bash
 python reverse_engine.py --status
 ```
 
-### 📂 Output structure
+### Output structure
+
+After the analysis, extracted files are automatically organized:
 
 ```text
 program_extracted/
@@ -262,17 +276,17 @@ program_extracted/
 └── README.txt
 ```
 
-The output structure may vary depending on the executable format and selected tools.
+The structure varies depending on the executable format and the selected tools.
 
-### 🔒 Security
+### Security
 
-Reverse Lab is designed to analyze files without executing the analyzed program during the extraction and analysis process.
+Reverse Lab was designed to analyze files without executing the analyzed program during the extraction and analysis process.
 
-It also includes protections for extracted file paths and processing limits for ZIP archives.
+It also includes protection mechanisms for extracted file paths and processing limits for ZIP files.
 
 **Important:** analyzing unknown executables may still involve risks. Use isolated environments and only analyze files you own, open-source files, or files you are authorized to inspect.
 
-### 💻 Technologies used
+### Technologies used
 
 - Python
 - PE (Portable Executable)
@@ -284,27 +298,29 @@ It also includes protections for extracted file paths and processing limits for 
 
 ---
 
-## 🇯🇵 日本語
+## 日本語
 
-### 📌 プロジェクトについて
+### プロジェクトについて
 
-**REVERSE LAB** は、実行ファイルの内部解析や、コンパイルに使用された技術の特定を簡単にするために Python で開発されたツールです。
+**Reverse Lab** は、実行ファイルの内部解析や、コンパイルに使用された技術の特定を容易にするために Python で開発されたツールです。
 
-リソースの自動抽出、埋め込みファイルの検出、リバースエンジニアリングツールとの連携機能を、ターミナル上の一つの対話型環境に統合しています。
+リソースの自動抽出、埋め込みファイルの識別、リバースエンジニアリングツールとの連携機能を備えています。
 
-### ⚙️ 主な機能
+これらすべての機能を、ターミナル上の対話型インターフェースから利用できます。
 
-- **PE Resource Extraction** — Windows 実行ファイルからアイコン、画像、マニフェスト、テキストなどのリソースを抽出します。
-- **File Carving** — バイナリシグネチャを使用して埋め込みファイルを検出・抽出します。
-- **PyInstaller Extraction** — PyInstaller パッケージ、モジュール、コンパイル済み Python ファイルを検出・抽出します。
+### 主な機能
+
+- **PE Resource Extraction** — Windows 実行ファイルからアイコン、画像、マニフェスト、テキストなどの内部リソースを抽出します。
+- **File Carving** — バイナリシグネチャを使用して埋め込みファイルを識別・抽出します。
+- **PyInstaller Extraction** — PyInstaller パッケージ、モジュール、コンパイル済み Python ファイルを識別・抽出します。
 - **Technology Detection** — Python、.NET、Electron、Java、Unity、Go、Rust などの技術を識別します。
-- **Ghidra Integration** — 関数を解析し、C 言語風の疑似コードに逆コンパイルします。
+- **Ghidra Integration** — 関数を解析し、C 言語形式の疑似コードに逆コンパイルします。
 - **Rizin Integration** — 情報、文字列、関数、アセンブリを抽出します。
-- **Cutter Integration** — 実行ファイルを GUI の解析環境で開きます。
+- **Cutter Integration** — 実行ファイルを GUI 解析インターフェースで開きます。
 - **Tool Manager** — 外部ツールのインストール、管理、削除を行います。
 - **Automatic Reports** — 解析したファイルの情報を含むレポートを自動生成します。
 
-### 🛠️ 統合ツール
+### 統合ツール
 
 | ツール | 機能 |
 |---|---|
@@ -313,7 +329,7 @@ It also includes protections for extracted file paths and processing limits for 
 | Cutter | GUI 解析インターフェース |
 | JDK 21 | Ghidra に必要な実行環境 |
 
-### 📥 インストール
+### インストール
 
 リポジトリをクローンします。
 
@@ -335,45 +351,51 @@ python reverse_engine.py
 
 **依存関係:** 基本機能では Python の標準ライブラリを使用します。基本的な抽出処理に追加の pip パッケージは必要ありません。
 
-### 🚀 使用方法
+### 使用方法
 
-**対話型インターフェース:**
+#### 対話型インターフェース
 
 ```bash
 python reverse_engine.py
 ```
 
-**基本解析:**
+メニューから実行ファイルを選択し、追加ツールを指定して解析を開始できます。
+
+#### コマンドライン
+
+基本解析:
 
 ```bash
 python reverse_engine.py program.exe
 ```
 
-**Rizin を使用した解析:**
+Rizin を使用した解析:
 
 ```bash
 python reverse_engine.py program.exe --rizin
 ```
 
-**Ghidra を使用した解析:**
+Ghidra を使用した解析:
 
 ```bash
 python reverse_engine.py program.exe --ghidra
 ```
 
-**すべてのツールを使用した解析:**
+すべてのツールを使用した解析:
 
 ```bash
 python reverse_engine.py program.exe --tudo
 ```
 
-**インストール済みツールの確認:**
+インストール済みツールの確認:
 
 ```bash
 python reverse_engine.py --status
 ```
 
-### 📂 出力フォルダー構成
+### 出力フォルダー構成
+
+解析後、抽出されたファイルは自動的に整理されます。
 
 ```text
 program_extracted/
@@ -391,17 +413,17 @@ program_extracted/
 └── README.txt
 ```
 
-出力フォルダーの構成は、実行ファイルの形式や選択したツールによって異なります。
+フォルダー構成は、実行ファイルの形式や選択したツールによって異なります。
 
-### 🔒 セキュリティ
+### セキュリティ
 
 Reverse Lab は、抽出および解析の処理中に対象プログラムを実行せずにファイルを解析するように設計されています。
 
-また、抽出先のファイルパスに対する保護機能や ZIP ファイルの処理制限も実装されています。
+また、抽出先のファイルパスに対する保護機能や ZIP ファイルの処理制限も備えています。
 
 **重要:** 不明な実行ファイルの解析にはリスクが伴う場合があります。隔離された環境を使用し、自分が所有するファイル、オープンソースのファイル、または解析の許可を得たファイルのみを対象にしてください。
 
-### 💻 使用技術
+### 使用技術
 
 - Python
 - PE (Portable Executable)
@@ -413,16 +435,18 @@ Reverse Lab は、抽出および解析の処理中に対象プログラムを�
 
 ---
 
-## 🤖 Credits
+## Agradecimentos
 
-README documentation created with AI assistance.
-
-**The project was developed by Stock.**
+- **[Claude (Anthropic)](https://claude.ai/)** — Assistência no desenvolvimento, sugestões técnicas, resolução de problemas e aprimoramento do projeto.
 
 ---
 
-<p align="center">
-  Made with ❤️ and Python
-  <br>
-  <b>STOCK © 2026</b>
-</p>
+<div align="center">
+
+**REVERSE LAB**
+
+*Understand binaries. Explore internals. Learn reverse engineering.*
+
+Developed by **Stock**.
+
+</div>
