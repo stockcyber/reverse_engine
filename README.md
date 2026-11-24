@@ -438,7 +438,7 @@ Reverse Lab は、抽出および解析の処理中に対象プログラムを�
 ## Agradecimentos
 
 - **[Claude (Anthropic)](https://claude.ai/)** — Assistência no desenvolvimento, sugestões técnicas, resolução de problemas e aprimoramento do projeto.
-
+Co-authored-by: Claude <noreply@anthropic.com>
 ---
 
 <div align="center">
