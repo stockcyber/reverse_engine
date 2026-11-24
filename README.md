@@ -16,10 +16,10 @@ Uma ferramenta em Python para análise de executáveis, extração de recursos e
 
 ---
 
-<p align="center">
-  <a href="#-português">Português</a> •
-  <a href="#-english">English</a> •
-  <a href="#-日本語">日本語</a>
+ <p align="center">
+  <a href="#português">Português</a> •
+  <a href="#english">English</a> •
+  <a href="#日本語">日本語</a>
 </p>
 
 ---
