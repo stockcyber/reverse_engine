@@ -16,7 +16,7 @@ Uma ferramenta em Python para análise de executáveis, extração de recursos e
 
 ---
 
-##  Sobre o projeto
+## Sobre o projeto
 
 O **Reverse Lab** é uma ferramenta desenvolvida em Python com o objetivo de facilitar a análise interna de executáveis e a identificação de tecnologias utilizadas em sua compilação.
 
@@ -24,7 +24,7 @@ O projeto combina extração automatizada de recursos, identificação de arquiv
 
 Tudo isso através de uma interface interativa diretamente no terminal.
 
-##  Funcionalidades
+## Funcionalidades
 
 - **PE Resource Extraction** — Extração de recursos internos de executáveis Windows, incluindo ícones, imagens, manifestos e textos.
 - **File Carving** — Identificação e extração de arquivos embutidos através de assinaturas binárias.
@@ -36,7 +36,7 @@ Tudo isso através de uma interface interativa diretamente no terminal.
 - **Tool Manager** — Instalação, gerenciamento e remoção de ferramentas externas.
 - **Automatic Reports** — Geração de relatórios com informações sobre os arquivos analisados.
 
-##  Ferramentas integradas
+## Ferramentas integradas
 
 | Ferramenta | Função |
 |---|---|
@@ -45,7 +45,7 @@ Tudo isso através de uma interface interativa diretamente no terminal.
 | Cutter | Interface gráfica para análise |
 | JDK 21 | Ambiente necessário para o Ghidra |
 
-##  Instalação
+## Instalação
 
 Clone o repositório:
 
@@ -67,7 +67,7 @@ python reverse_engine.py
 
 **Dependências:** o núcleo do projeto utiliza bibliotecas padrão do Python. Não é necessário instalar pacotes adicionais com pip para executar a extração básica.
 
-##  Como utilizar
+## Como utilizar
 
 ### Interface interativa
 
@@ -109,7 +109,7 @@ Verificar ferramentas instaladas:
 python reverse_engine.py --status
 ```
 
-##  Estrutura de saída
+## Estrutura de saída
 
 Após a análise, os arquivos extraídos são organizados automaticamente:
 
@@ -123,19 +123,15 @@ programa_extraido/
 │   └── manifest.xml
 │
 ├── embutidos/
-│
 ├── pyinstaller/
-│
 ├── ghidra/
-│
 ├── rizin/
-│
 └── LEIAME.txt
 ```
 
 A estrutura varia de acordo com o formato do executável e as ferramentas selecionadas.
 
-##  Segurança
+## Segurança
 
 O Reverse Lab foi desenvolvido para analisar arquivos sem executar o programa analisado durante o processo de extração e análise.
 
@@ -143,7 +139,7 @@ Também possui mecanismos de proteção para caminhos de arquivos extraídos e l
 
 **Importante:** a análise de executáveis desconhecidos ainda pode apresentar riscos. Utilize ambientes isolados e analise somente arquivos próprios, open source ou para os quais você tenha autorização.
 
-##  Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - Python
 - PE (Portable Executable)
@@ -152,6 +148,12 @@ Também possui mecanismos de proteção para caminhos de arquivos extraídos e l
 - Rizin
 - Cutter
 - Java JDK 21
+
+---
+
+## Agradecimentos
+
+- **[Claude (Anthropic)](https://claude.ai/)** — Assistência no desenvolvimento, sugestões técnicas, resolução de problemas e aprimoramento do projeto.
 
 ---
 
