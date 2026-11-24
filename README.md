@@ -1,4 +1,4 @@
- <div align="center">
+<div align="center">
 
 <img src="https://i.pinimg.com/1200x/be/49/5a/be495a9ae2bb6de49ac21e5f83f269b6.jpg" width="100%" alt="Reverse Lab Banner"/>
 
@@ -16,10 +16,10 @@ Uma ferramenta em Python para análise de executáveis, extração de recursos e
 
 ---
 
- <p align="center">
+<p align="center">
   <a href="#português">Português</a> •
   <a href="#english">English</a> •
-  <a href="#日本語">日本語</a>
+  <a href="#日本語-japanese">日本語</a>
 </p>
 
 ---
@@ -60,13 +60,13 @@ Tudo isso através de uma interface interativa diretamente no terminal.
 Clone o repositório:
 
 ```bash
-git clone https://github.com/SEU-USUARIO/Reverse-Lab.git
+git clone https://github.com/stockcyber/reverse_engine.git
 ```
 
 Entre na pasta:
 
 ```bash
-cd Reverse-Lab
+cd reverse_engine
 ```
 
 Execute:
@@ -197,13 +197,13 @@ All of this is available through an interactive terminal interface.
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/Reverse-Lab.git
+git clone https://github.com/stockcyber/reverse_engine.git
 ```
 
 Navigate to the project directory:
 
 ```bash
-cd Reverse-Lab
+cd reverse_engine
 ```
 
 Run:
@@ -244,7 +244,7 @@ Analysis with Ghidra:
 python reverse_engine.py program.exe --ghidra
 ```
 
-Analysis with all tools:
+Analysis with all tools (`--tudo` means "all" in Portuguese):
 
 ```bash
 python reverse_engine.py program.exe --tudo
@@ -298,7 +298,7 @@ It also includes protection mechanisms for extracted file paths and processing l
 
 ---
 
-## 日本語
+## 日本語 (Japanese)
 
 ### プロジェクトについて
 
@@ -334,13 +334,13 @@ It also includes protection mechanisms for extracted file paths and processing l
 リポジトリをクローンします。
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/Reverse-Lab.git
+git clone https://github.com/stockcyber/reverse_engine.git
 ```
 
 プロジェクトフォルダーに移動します。
 
 ```bash
-cd Reverse-Lab
+cd reverse_engine
 ```
 
 プログラムを実行します。
@@ -381,7 +381,7 @@ Ghidra を使用した解析:
 python reverse_engine.py program.exe --ghidra
 ```
 
-すべてのツールを使用した解析:
+すべてのツールを使用した解析（`--tudo` はポルトガル語で「すべて」の意味です）:
 
 ```bash
 python reverse_engine.py program.exe --tudo
