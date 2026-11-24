@@ -12,6 +12,10 @@ Uma ferramenta em Python para análise de executáveis, extração de recursos e
 [![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?style=flat-square&logo=windows&logoColor=white)](https://www.microsoft.com/windows)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
+**Languages / Idiomas / 言語**
+
+🇧🇷 Português (Brasil) · 🇺🇸 English · 🇯🇵 日本語
+
 </div>
 
 ---
